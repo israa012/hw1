@@ -1,0 +1,339 @@
+
+body{
+    margin: 0px;
+    font-family: "Poppins",sans-serif;
+}
+
+div.initial-slide {
+    border: 3px solid violet;
+    background-image: url(https://cdn.urlaubsguru.at/wp-content/uploads/2018/01/urlaubsguru.de_los-angeles-tipps.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+    height: 100vh;
+   
+}
+div.navigation {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navigation_text{
+    color: white;
+}
+
+#navigation_location {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    
+
+}
+#navigation_location:hover {
+    background-color: white;
+    color: black;
+
+
+}
+#navigation_menu {
+    background-color: rgba(0, 0, 0, 0.3) ;
+    border-radius: 5px ;
+}
+#navigation_menu:hover {
+    background-color: white;
+    color: black;
+}
+
+.card_section {
+    
+    height: 1000px;
+    
+}
+.card {
+    display:flex;
+    height: 30%;
+    width: 90%;
+    margin: 10% 0 0 10%;
+    
+}
+.card-image {
+    background-image: url(https://luxuryfb.com/wp-content/uploads/2022/05/luxuryfB_nobuhotel.jpg);
+    background-size:200%;
+    background-position: center;
+    background-repeat:no-repeat;
+    border:  3px solid black ;
+    width: 50%;
+
+}
+.card-text {
+    display: block;
+    border : 3px solid black;
+    width: 50%;
+    margin: 0% 7%;  
+    background-color:antiquewhite;
+    
+
+}
+.card-text-titolo {
+    color : red;
+    
+    margin: 8% 0 0  25% ;
+    
+}
+.card-text-titolo-1 {
+    color : black ;
+    text-align: start ;
+    margin : 5% 0 0 0 ;
+
+}
+.card-text-content {
+    color : black ;
+    margin : 5% 0 0 0 ;
+    font-family: cursive;
+}
+
+.card-text-finestra{
+    margin : 10% 0 0 0 ;
+    color :crimson ; 
+    font-family: Georgia, serif;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    
+}
+
+.test{
+    border-radius: 5px ;
+
+}
+
+.test:hover {
+    background-color: rgb(216, 46, 46);
+    color : rgb(255, 255, 255) ;
+    
+}
+
+.internazional_card {
+    border: 3px solid black ;
+    margin: 40px;
+    height: 300px ; 
+    width: 90% ;
+    background-color: gainsboro;
+
+}
+
+.section-name {
+    border: 3px solid black ;
+    margin : 10px ; 
+    height: 30px ;
+    width: 35%;
+    position: absolute;
+    left: 29% ;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+.body-card {
+    border : 3px solid black ;
+    margin : 50px;
+    height: 240px;
+    width: 85%;
+    position :absolute;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    position: relative;
+}
+
+.n_section_1 {
+    border : 3px solid blueviolet;
+    margin : 10px ;
+    height: 220px;
+    width: 30%;
+    display: flex ;
+}
+
+.n_section_2 {
+    border : 3px solid blueviolet;
+    height: 220px ;
+    width: 30% ;
+    position : absolute ;
+    right : 35% ;
+    display: flex ;
+    
+}
+.n_section_3 {
+    border: 3px solid blueviolet;
+    height: 220px;
+    width: 30%;
+    display: flex;
+}
+
+.n_section_1_img {
+    background-image: url("https://www.noburestaurants.com/assets/New-Cairo/IMAGES/New-Cairo-Location-Coming-Soon.jpg");
+    background-size: 200% ; 
+    background-position: top; 
+    background-repeat: no-repeat; 
+    
+    width: 100%;  
+    height: 100%; 
+}
+.n_section_2_img {
+    background-image: url("https://www.noburestaurants.com/assets/article-media-files/Nobu-Wine.jpg");
+    background-size: 200% ; 
+    background-position:top; 
+    background-repeat: no-repeat; 
+    
+    width: 100%;  
+    height: 100%; 
+}
+
+.n_section_3_img {
+    background-image: url("https://www.noburestaurants.com/assets/article-media-files/Nobu-Wine.jpg");
+    background-size: 200% ; 
+    background-position:top; 
+    background-repeat: no-repeat; 
+    
+    width: 100%;  
+    height:100%;
+}
+
+
+
+.chef_card{
+    border: 3px solid black;
+    height: 65%;
+    width: 100%;
+    display:flex ;
+}
+
+.img_chef_card {
+    background-image: url("https://images.summitmedia-digital.com/spotph/images/2025/03/25/chef-nobu-matsuhisa-1742869689.jpg");
+    background-size: 100% ; 
+    background-repeat: no-repeat; 
+    display: flex ;
+    position: relative ;
+    
+    width: 100%;  
+    height: 100%;
+}
+
+.card_chef_title_1{
+    font-weight: 700;
+    font-size: 20px;
+    color: #886e42; 
+}
+.card_chef_title_2{
+    font-weight: 700;
+    font-size: 36px;
+    color: black;
+}
+.card_chef_text{
+    margin: 16px 0;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.card_chef_finestra {
+    
+    width: 100px;
+    font-family: Georgia, serif;
+    border-radius: 5px ;
+   
+}
+.card_chef_finestra:hover {
+     border-radius: ;
+    background-color: rgb(238, 159, 203);
+    color : rgb(255, 255, 255) ;
+    font-family: Georgia, serif;
+
+
+}
+
+.n_section{
+    margin: 16px 0;
+   
+}
+
+.n_card_section {
+   margin: 32px 0; 
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.n_card_media{
+    border: 3px solid red;
+    width: 100%;
+    display: flex;
+    height: 80% ;
+
+}
+.card_media_img_container{
+    
+    border : 3px solid black;
+    height : 95%;
+    margin : 1% 0% 0% 2%;
+    width: 350%;
+   
+}
+
+.card_media_img{
+    width: 100%;  
+    height: 95%;
+    background-size: 100% ; 
+    background-repeat: no-repeat; 
+}
+
+#cocktail_img{
+    background-image: url("https://images.squarespace-cdn.com/content/5dd58fd69e259436c30d0b95/1679333362174-1K9V39MVSAUJ0IFJY3ID/Matsuhisa-Martini-%282-of-3%29-%281%29-web.jpg?content-type=image%2Fjpeg");
+    
+}
+
+#bu_img{
+    background-image: url("https://sa.kapamilya.com/absnews/abscbnnews/media/2020/news/12/31/nobu.jpg");
+}
+
+.card_text_container{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.card_text_content{
+    padding: 48px 48px  48px 0;
+}
+
+.card_text_caption{
+    font-weight: 700;
+    font-size: 20px;
+    color: #886e42;
+}
+
+.card_text_title{
+    font-weight: 700;
+    font-size: 36px;
+    color: black;
+}
+
+.card_text_body{
+    margin: 16px 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+test{
+    display: flex ;
+    border : 3px solid green ;
+    height: 100% ;
+    margin : 360px 0%;
+    width: 100%;
+    justify-content: space-between; 
+    
+}
+
