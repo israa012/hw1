@@ -1,339 +1,401 @@
-
-body{
-    margin: 0px;
-    font-family: "Poppins",sans-serif;
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 
-div.initial-slide {
+.initial-slide {
     border: 3px solid violet;
     background-image: url(https://cdn.urlaubsguru.at/wp-content/uploads/2018/01/urlaubsguru.de_los-angeles-tipps.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
-   
 }
-div.navigation {
+
+.navigation {
     display: flex;
     justify-content: space-between;
-    
+    padding: 16px;
 }
 
-.navigation_text{
+.navigation_text {
     color: white;
+    padding: 8px 12px;
+    font-weight: bold;
 }
 
-#navigation_location {
+#navigation_location,
+#navigation_menu {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 5px;
-    
-
+    cursor: pointer;
 }
-#navigation_location:hover {
-    background-color: white;
-    color: black;
 
-
-}
-#navigation_menu {
-    background-color: rgba(0, 0, 0, 0.3) ;
-    border-radius: 5px ;
-}
+#navigation_location:hover,
 #navigation_menu:hover {
     background-color: white;
     color: black;
 }
 
 .card_section {
-    
     height: 1000px;
-    
 }
+
 .card {
-    display:flex;
+    display: flex;
     height: 30%;
     width: 90%;
     margin: 10% 0 0 10%;
-    
 }
+
 .card-image {
     background-image: url(https://luxuryfb.com/wp-content/uploads/2022/05/luxuryfB_nobuhotel.jpg);
-    background-size:200%;
+    background-size: 200%;
     background-position: center;
-    background-repeat:no-repeat;
-    border:  3px solid black ;
+    background-repeat: no-repeat;
+    border: 3px solid black;
     width: 50%;
-
 }
+
 .card-text {
-    display: block;
-    border : 3px solid black;
+    border: 3px solid black;
     width: 50%;
-    margin: 0% 7%;  
-    background-color:antiquewhite;
-    
-
+    margin: 0 7%;
+    background-color: antiquewhite;
 }
+
 .card-text-titolo {
-    color : red;
-    
-    margin: 8% 0 0  25% ;
-    
+    color: red;
+    margin: 8% 0 0 25%;
 }
-.card-text-titolo-1 {
-    color : black ;
-    text-align: start ;
-    margin : 5% 0 0 0 ;
 
+.card-text-titolo-1 {
+    color: black;
+    text-align: start;
+    margin-top: 5%;
 }
+
 .card-text-content {
-    color : black ;
-    margin : 5% 0 0 0 ;
+    color: black;
+    margin-top: 5%;
     font-family: cursive;
 }
 
-.card-text-finestra{
-    margin : 10% 0 0 0 ;
-    color :crimson ; 
+.card-text-finestra {
+    margin-top: 10%;
+    color: crimson;
     font-family: Georgia, serif;
-    text-align: center; 
+    text-align: center;
     display: flex;
     justify-content: center;
-    
 }
 
-.test{
-    border-radius: 5px ;
-
+.test {
+    border-radius: 5px;
+    padding: 6px 12px;
+    background-color: white;
+    border: 1px solid crimson;
+    cursor: pointer;
 }
 
 .test:hover {
     background-color: rgb(216, 46, 46);
-    color : rgb(255, 255, 255) ;
-    
+    color: white;
 }
 
 .internazional_card {
-    border: 3px solid black ;
+    border: 3px solid gray;
     margin: 40px;
-    height: 300px ; 
-    width: 90% ;
+    height: 300px;
+    width: 90%;
     background-color: gainsboro;
-
 }
 
 .section-name {
-    border: 3px solid black ;
-    margin : 10px ; 
-    height: 30px ;
+
+    margin: 10px;
+    height: 30px;
     width: 35%;
     position: absolute;
-    left: 29% ;
+    left: 29%;
     text-align: center;
     font-family: Georgia, serif;
 }
+.section-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    display: flex;
+    padding: 5px 15px;
+   
+}
 
 .body-card {
-    border : 3px solid black ;
-    margin : 50px;
+   
+    margin: 50px;
     height: 240px;
     width: 85%;
-    position :absolute;
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+    justify-content: space-between;
+    align-items: center;
     position: relative;
 }
 
-.n_section_1 {
-    border : 3px solid blueviolet;
-    margin : 10px ;
-    height: 220px;
-    width: 30%;
-    display: flex ;
-}
-
-.n_section_2 {
-    border : 3px solid blueviolet;
-    height: 220px ;
-    width: 30% ;
-    position : absolute ;
-    right : 35% ;
-    display: flex ;
-    
-}
+.n_section_1,
+.n_section_2,
 .n_section_3 {
-    border: 3px solid blueviolet;
+   
     height: 220px;
     width: 30%;
     display: flex;
+}
+
+.n_section_2 {
+    position: absolute;
+    right: 35%;
+}
+
+.n_section_1_img,
+.n_section_2_img,
+.n_section_3_img {
+    width: 100%;
+    height: 100%;
+    background-size: 200%;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 .n_section_1_img {
     background-image: url("https://www.noburestaurants.com/assets/New-Cairo/IMAGES/New-Cairo-Location-Coming-Soon.jpg");
-    background-size: 200% ; 
-    background-position: top; 
-    background-repeat: no-repeat; 
-    
-    width: 100%;  
-    height: 100%; 
-}
-.n_section_2_img {
-    background-image: url("https://www.noburestaurants.com/assets/article-media-files/Nobu-Wine.jpg");
-    background-size: 200% ; 
-    background-position:top; 
-    background-repeat: no-repeat; 
-    
-    width: 100%;  
-    height: 100%; 
 }
 
+.n_section_2_img,
 .n_section_3_img {
     background-image: url("https://www.noburestaurants.com/assets/article-media-files/Nobu-Wine.jpg");
-    background-size: 200% ; 
-    background-position:top; 
-    background-repeat: no-repeat; 
-    
-    width: 100%;  
-    height:100%;
 }
 
 
+.card_text_caption {
+    font-weight: bold;
+    color: #9c7e51;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
 
-.chef_card{
-    border: 3px solid black;
+.card_text_title h6 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+
+.chef_card {
+    border: 3px solid grey;
     height: 65%;
     width: 100%;
-    display:flex ;
+    display: flex;
 }
 
 .img_chef_card {
-    background-image: url("https://images.summitmedia-digital.com/spotph/images/2025/03/25/chef-nobu-matsuhisa-1742869689.jpg");
-    background-size: 100% ; 
-    background-repeat: no-repeat; 
     display: flex ;
-    position: relative ;
-    
-    width: 100%;  
-    height: 100%;
-}
-
-.card_chef_title_1{
-    font-weight: 700;
-    font-size: 20px;
-    color: #886e42; 
-}
-.card_chef_title_2{
-    font-weight: 700;
-    font-size: 36px;
-    color: black;
-}
-.card_chef_text{
-    margin: 16px 0;
-    font-weight: 400;
-    font-size: 16px;
-
-}
-.card_chef_finestra {
-    
-    width: 100px;
-    font-family: Georgia, serif;
-    border-radius: 5px ;
-   
-}
-.card_chef_finestra:hover {
-     border-radius: ;
-    background-color: rgb(238, 159, 203);
-    color : rgb(255, 255, 255) ;
-    font-family: Georgia, serif;
-
-
-}
-
-.n_section{
-    margin: 16px 0;
-   
-}
-
-.n_card_section {
-   margin: 32px 0; 
-}
-.container{
-    margin-left: auto;
-    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
     width: 100%;
+    height: 300px;
 }
 
-.n_card_media{
-    border: 3px solid red;
-    width: 100%;
-    display: flex;
-    height: 80% ;
 
-}
-.card_media_img_container{
-    
-    border : 3px solid black;
-    height : 95%;
-    margin : 1% 0% 0% 2%;
-    width: 350%;
-   
-}
-
-.card_media_img{
-    width: 100%;  
-    height: 95%;
-    background-size: 100% ; 
-    background-repeat: no-repeat; 
-}
-
-#cocktail_img{
-    background-image: url("https://images.squarespace-cdn.com/content/5dd58fd69e259436c30d0b95/1679333362174-1K9V39MVSAUJ0IFJY3ID/Matsuhisa-Martini-%282-of-3%29-%281%29-web.jpg?content-type=image%2Fjpeg");
-    
-}
-
-#bu_img{
-    background-image: url("https://sa.kapamilya.com/absnews/abscbnnews/media/2020/news/12/31/nobu.jpg");
-}
-
-.card_text_container{
-    margin:0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: flex-start;
-
-}
-
-.card_text_content{
-    padding: 48px 48px  48px 0;
-}
-
-.card_text_caption{
+.card_chef_title_1 {
     font-weight: 700;
     font-size: 20px;
     color: #886e42;
 }
 
-.card_text_title{
+.card_chef_title_2 {
     font-weight: 700;
     font-size: 36px;
     color: black;
 }
 
-.card_text_body{
+.card_chef_text {
     margin: 16px 0;
     font-weight: 400;
     font-size: 16px;
 }
 
-test{
-    display: flex ;
-    border : 3px solid green ;
-    height: 100% ;
-    margin : 360px 0%;
+.card_chef_finestra {
+    width: 100px;
+    font-family: Georgia, serif;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+}
+
+.card_chef_finestra:hover {
+    background-color: rgb(238, 159, 203);
+    color: white;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
-    justify-content: space-between; 
+}
+
+.n_card_media {
+   border : 3px solid gray ;
+    width: 90%;
+    display: flex;
+    height: 80%;
     
 }
+
+.card_media_img_container {
+    display: flex ;
+    border: 3px solid black;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    width: 100%;
+    height: 300px;
+    
+}
+
+.card_media_img {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    background-size: cover ;
+    background-repeat: no-repeat;
+
+}
+
+
+
+#reservation {
+    background-image: url("https://www.noburestaurants.com/assets/article-media-files/Nobu-Las-Vegas-v2.jpg" );
+    
+}
+
+.card_text_container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card_text_content {
+    padding: 48px 48px 48px 0;
+}
+
+.card_text_caption {
+    font-weight: 700;
+    font-size: 20px;
+    color: #886e42;
+}
+
+.card_text_title {
+    font-weight: 700;
+    font-size: 36px;
+    color: black;
+}
+
+.card_text_body {
+    margin: 16px 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.reservation_link {
+    width: 100px;
+    height: 40px;
+    margin: 40px auto; 
+    border: 3px solid bisque;
+    background-color: bisque;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.reservation_link h3 {
+    margin: 0;
+    font-size: 16px;
+    color: black;
+}
+
+.reservation_link:hover {
+    background-color: rgb(242, 201, 106);
+    color: bisque;
+}
+
+
+.menu_section {
+    border : 3px solid yellow ; 
+    height: 100vh ;
+    background: white;
+    z-index: 10;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.down-bar {
+    background-color: rgb(3, 10, 55);
+    color: white;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.title {
+    color: gold;
+    font-size: 24px;
+    float: left;
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+.form-box {
+    float: left;
+    margin-right: 20px;
+}
+
+.form-label {
+    color: lightgray;
+    font-size: 12px;
+}
+
+input, select {
+    padding: 5px;
+    width: 150px;
+}
+.join-button {
+    display: block;
+    float: left;
+    background-color: gold;
+    color: #f0f0f0;
+    border: none;
+    padding: 7px 15px;
+    margin-top: 23px; 
+    font-weight: bold;
+   
+}
+
+.join-button:hover {
+    background-color: yellow;
+}
+@media (max-width: 500px) {
+    body {
+    font-size: 14px;
+    }
+    }
 
